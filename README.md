@@ -1,76 +1,155 @@
-📊 E-commerce Sales Dashboard using Power BI
-🔷 Overview:
-This project demonstrates a complete end-to-end data analytics pipeline using Power BI — from data mining, cleaning, modeling, to dashboard visualization. The goal is to provide business decision-makers with insights into sales, profits, customer behavior, and regional performance using real-world e-commerce data.
+# 📊 E-Commerce Sales Dashboard | Power BI
 
-📌 Project Objectives:
-Track overall sales performance (Profit, Sales Amount, AOV)
+## 📌 Project Overview
 
-Analyze top-performing categories, sub-categories, and payment methods
+Developed an interactive Power BI dashboard to analyze e-commerce sales performance, profitability, customer purchasing behavior, and regional trends. The project demonstrates the complete analytics workflow from data preparation and modeling to dashboard development and business insight generation.
 
-Evaluate monthly profit trends and detect loss periods
+---
 
-Identify state-wise revenue contributions
+## 🎯 Business Problem
 
-Create a user-friendly, interactive dashboard for business use
+E-commerce businesses generate large amounts of transactional data. The objective of this project was to transform raw sales data into actionable insights that help management:
 
-✅ Tasks Performed:
-Data Mining & Collection
+* Monitor revenue and profitability
+* Identify top-performing product categories
+* Analyze customer purchasing patterns
+* Evaluate regional sales performance
+* Support data-driven business decisions
 
-Extracted and imported raw sales data into Power BI
+---
 
-Data Cleaning & Transformation
+## 🛠️ Tools & Technologies
 
-Used Power Query to handle nulls, correct data types, and shape data
+* Power BI
+* Power Query
+* DAX
+* Data Modeling
+* Microsoft Excel
 
-Data Modeling
+---
 
-Built relationships between multiple tables
+## 📂 Dataset Information
 
-Defined hierarchy and time intelligence for monthly/quarterly insights
+The dataset contains:
 
-DAX Calculations
+* Order Details
+* Customer Information
+* Product Categories
+* Sales Amount
+* Profit
+* Quantity Sold
+* State Information
+* Payment Modes
 
-Created KPIs: Total Profit, Total Sales Amount, Average Order Value
+---
 
-Used DAX for filtering, time-based aggregations, and conditional measures
+## 🔄 Data Preparation
 
-Dashboard Design & Visualization
+### Data Cleaning
 
-Developed interactive visuals: Pie Charts, Bar Graphs, Line Charts, KPI cards
+* Removed inconsistencies and duplicate records
+* Handled missing values
+* Standardized data formats
+* Verified data quality
 
-Added filters for quarters and states
+### Data Modeling
 
-Applied clean, responsive design with modern UI
+* Established table relationships
+* Created hierarchy structures
+* Implemented time intelligence model
 
-📊 Dashboard Insights:
-👕 Top Category: Clothing (63% of quantity)
+### DAX Measures
 
-💳 Top Payment Mode: Cash on Delivery (44%)
+Created custom measures for:
 
-🌍 Top State: Maharashtra
+* Total Sales
+* Total Profit
+* Average Order Value (AOV)
+* Quantity Sold
+* Monthly Profit Analysis
 
-📉 Negative Profit Months: June, July, December
+---
 
-🛠️ Tools & Technologies:
-Power BI
+## 📊 Dashboard Features
 
-Power Query
+### Executive KPIs
 
-DAX
+* Total Sales
+* Total Profit
+* Average Order Value
+* Total Orders
 
-Data Modeling
+### Interactive Analysis
 
-Microsoft Excel (for initial data formatting)
+* Category Performance
+* Sub-Category Performance
+* State-wise Revenue Analysis
+* Monthly Profit Trends
+* Payment Method Analysis
 
-📂 Project Files:
-.pbix file (Power BI file with complete visuals and data model)
+### Filters
 
-Sample dataset (.csv or Excel format)
+* Quarter Selection
+* State Selection
+* Dynamic Dashboard Interactions
 
-Screenshots of the dashboard
+---
 
-README documentation (this file)
+## 🔍 Key Business Insights
 
-📈 Outcome:
-This project shows how businesses can use Power BI to gain real-time sales intelligence and uncover patterns for better decision-making.
+### Product Performance
 
+* Clothing category contributed approximately 63% of total quantity sold.
+* Top-performing product segments generated the majority of revenue.
+
+### Payment Analysis
+
+* Cash on Delivery accounted for 44% of transactions, making it the most preferred payment method.
+
+### Geographic Analysis
+
+* Maharashtra emerged as the highest revenue-contributing state.
+
+### Profitability Trends
+
+* June, July, and December recorded negative profit performance.
+* These periods require further investigation for pricing, discounts, or operational issues.
+
+---
+
+## 🚀 Business Impact
+
+This dashboard enables stakeholders to:
+
+* Monitor business performance in real time
+* Identify profitable products and regions
+* Improve inventory planning
+* Optimize marketing strategies
+* Make informed business decisions using data
+
+---
+
+## 📷 Dashboard Preview
+
+
+---
+
+## 📁 Repository Structure
+
+📂 Dataset
+
+📂 Dashboard Screenshots
+
+📄 Ecommerce Sales Dashboard.pbix
+
+📄 README.md
+
+---
+
+## 👨‍💻 Author
+
+Sujal Patil
+
+B.E. Artificial Intelligence & Data Science
+
+Aspiring Data Analyst
