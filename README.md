@@ -6,6 +6,12 @@ Developed an interactive Power BI dashboard to analyze e-commerce sales performa
 
 ---
 
+## 📷 Dashboard Preview
+<img width="1157" height="656" alt="DASHBOARD " src="https://github.com/user-attachments/assets/a95d02b3-2a40-4a8f-8321-7f45ced40624" />
+
+
+
+
 ## 🎯 Business Problem
 
 E-commerce businesses generate large amounts of transactional data. The objective of this project was to transform raw sales data into actionable insights that help management:
@@ -126,11 +132,6 @@ This dashboard enables stakeholders to:
 * Improve inventory planning
 * Optimize marketing strategies
 * Make informed business decisions using data
-
----
-
-## 📷 Dashboard Preview
-![Uploading DASHBOARD .png…]()
 
 
 ---
